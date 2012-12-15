@@ -11,11 +11,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121215155800) do
+ActiveRecord::Schema.define(:version => 20121215162655) do
 
   create_table "microposts", :force => true do |t|
     t.string   "content"
-    t.integer  "userid"
+    t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
